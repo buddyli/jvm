@@ -9,8 +9,8 @@
 。注意${java_home}变量，如果本地没有定义，可以直接替换成JDK的全路径。
 
 
-###启动jstatd服务，该服务是本地监控程序获取远程服务器jvm状态的桥梁。启动命令为"jstatd -J-Djava.security.policy=jstatd.all.policy"。特别注意一下启动改命令的权限即可。
+#####启动jstatd服务，该服务是本地监控程序获取远程服务器jvm状态的桥梁。启动命令为"jstatd -J-Djava.security.policy=jstatd.all.policy"。特别注意一下启动改命令的权限即可。
 如果系统中有使用root用户启动的服务，改jstatd服务也需要使用root启动。
 
 
-###在本地jvisualvm中“远程”选项卡添加一个远程服务器的链接，就可以看到所有的jvm实例的监控数据了。
+#####在本地jvisualvm中“远程”选项卡添加一个远程服务器的链接，就可以看到所有的jvm实例的监控数据了。
